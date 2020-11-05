@@ -10,12 +10,13 @@ class Moeda extends Animacao {
   
   move() {
     this.x = this.x - this.velocidade;
-    //console.log(this.y);
+    console.log(this.y);
     
     if(this.x < -this.largura){
       setTimeout ( () => {
         this.x = width; 
-        this.y = Math.floor( Math.random() * (490 - (590)) + (590));
+        this.y = Math.floor( Math.random() * (300 - (350)) + (350));
+        //this.y = 500;
       }, this.delay * 1000);
       
     //console.log(new Date().getSeconds());  

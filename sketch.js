@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth / 1.5 , windowHeight / 1.5 );
+  createCanvas(windowWidth / 1 , windowHeight / 1.5 );
   console.log ('largura do game =', windowWidth, 'altura do game =', windowHeight);
   
   frameRate(40)

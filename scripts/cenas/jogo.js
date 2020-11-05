@@ -41,7 +41,8 @@ class Jogo {
     pontuacao = new Pontuacao();
     moeda = new Moeda(matrizMoeda, imagemMoeda, width - 50, 300, 40, 50, 16, 16, 10, 5);
     vida = new Vida(fita.configuracoes.vidaMaxima, fita.configuracoes.vidaInicial);
-    personagem = new Personagem(matrizPersonagem, imagemPersonagem, this.variacaoY, this.larguraPersonagem, this.alturaPersonagem, 135, 220, 270);
+    
+     personagem = new Personagem(matrizPersonagem, imagemPersonagem, this.variacaoY, this.larguraPersonagem, this.alturaPersonagem, 135, 220, 270);
     
     const inimigo = new Inimigo(matrizInimigo, imagemInimigo, width - 52, 30, this.larguraInimigo, this.alturaInimigo, 104, 104, 10);
     
